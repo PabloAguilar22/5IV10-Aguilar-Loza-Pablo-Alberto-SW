@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo DES</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body class="contenedor">
+    <br><br><br><br><br><br>
+    <div class="contenedor1">
+        <br>
+        <h1>Algoritmo DES</h1>
+        
+        <textarea id="contenido" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="file" id="archivo" class="archivo">
+        <br><br>
+        <input type="text" id="clave">
+        <br><br>
+        <button id="cifrar" onclick="cifrar()">Cifrar</button>
+        <button id="descifrar" onclick="descifrar()">Descifrar</button>
+        <script src="js/des.js"></script>
+    </div>
+</body>
+</html>
